@@ -1,0 +1,77 @@
+#thumbList{
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.global_posts{
+  flex-wrap: wrap;
+}
+.listEntete{
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+}
+.blocContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+  background: #d5d0cf36;
+  border-radius: 15px;
+}
+.card{
+  flex: 1 1 30%;
+  background: linear-gradient(180deg, rgba(234, 107, 107, 0) 0%, rgba(223, 106, 106, 0.94) 100%);
+  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.initCover{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+ .initP{
+      align-self: center;
+      margin: 15px;
+      min-height: 32px;     
+  }
+  
+  
+  .backLoad{    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160, 223, 223, 0.315);    
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+  }
+  .fixHeight{
+    height:370px;
+  }
+
+  .showAdvertisment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card{
+      flex:1 1 100%;
+    }
+    .blocContainer{
+      padding: 0px;
+    }
+    .initCover{
+      height: 255px;
+    }
+    .blocContainer{margin-bottom: 20px;}
+  }

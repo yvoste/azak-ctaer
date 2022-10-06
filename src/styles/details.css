@@ -1,0 +1,96 @@
+.adjustElem {
+  display: flex;
+
+}
+
+.blocAccordionD {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  min-height: 220px;
+}
+
+.posElemDet {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 48%;
+
+}
+
+.posTagAut {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redor {
+  color: #ff6060 !important;
+}
+
+.grisor {
+  color: grey !important;
+}
+
+.autorPicture {
+  height: 64px;
+  width: 64px;
+  border-radius: 64px;
+}
+
+.posAutor {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.autorName {
+  display: flex;
+ /* width: 100px;*/
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 5px;
+  align-items: center;
+  justify-content: flex-end;
+  color:#ff6060;
+  font-size: 18px;
+}
+
+.tagitos {
+  background: #FF6060;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;  
+}
+
+.titros {
+  margin: 0px !important;
+
+margin-top: 10px !important;
+font-weight: 500;
+color: #FF6060;
+font-size: 36px;
+}
+
+.blocAutor {
+  display: flex;
+  flex-direction: column;
+  width: 196px;
+}
+h2{
+  font-size: 18px;
+  color: #ff6060;
+  font-weight: 500;
+}
+.rate{
+  display: flex;
+justify-content: flex-end;
+}
+.nom{
+  margin-right: 5px;
+}
+

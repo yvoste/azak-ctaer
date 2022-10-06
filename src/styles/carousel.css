@@ -1,0 +1,83 @@
+.slider {
+  position: relative;
+  max-width: 100%;
+  height: 415px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.slide {
+  width: 100%;
+  height: 415px;
+  position: absolute;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transform: translate(-100%, 0);
+}
+
+.slide.active {
+  transform: translate(0, 0);
+
+}
+
+.slide.active~.slide {
+  transform: translate(100%, 0);
+}
+
+
+.sizeImgCarousel {
+  height: 415px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel__button--prev {
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.carousel__button--next {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.controls {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.activeDot {
+  background-color: #cf1e1e;
+}
+
+.doto {
+  position: absolute;
+top: 51%;
+left: 45%;
+}
+

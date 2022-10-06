@@ -1,13 +1,161 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color:white;
+
+  /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {  
+  font-family: 'Montserrat',
+    sans-serif;
+}
+header, main{
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* LIST */
+  .card{
+    flex:1 1 100%;
+  }
+  .blocContainer{
+    padding: 0px;
+  }
+  .initCover{
+    height: 255px;
+  }
+  .blocContainer{margin-bottom: 20px;}
+
+  /* HEADER*/
+  .spec{
+    font-size: 16px! important;
+    margin-right: 20px;
+  }
+  .logi{
+    height: 50px;
+  }
+  .topit{
+    height: 223pxpx;
+  }
+  .title{
+    font-size:24px;
+    width: 217px;
+  }
+  .foot{
+    width: 30%;
+    margin: 20px auto;
+  }
+  .titleFoot{
+    width: 50%;
+  }
+  .header-status{
+    margin-bottom: 25px;
+  }
+  .home{
+    height: 111px !important;
+  }
+
+  /*DETAILS*/
+  .posTagAut{
+    flex-direction: column;
+  }
+  .titros{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  .tagitos{
+    font-size: 10px;
+    margin-right: 7px;
+  }
+  .blocAutor {
+    flex-direction: row-reverse;
+    width: auto;
+    justify-content: space-between;
+  }
+  .rate{
+    justify-content: flex-start;
+    align-self: center;
+  }
+  .redor, .grisor{
+    font-size: 20px !important;
+  }
+  .autorPicture {
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+  }
+  .autorName {
+    font-size: 12px;
+  }
+  .nom{
+    width: 50%;
+  }
+  .blocAccordionD{
+    flex-direction: column;
+    min-height: 220px;
+    justify-content: flex-start;
+  }
+  .posElemDet{
+    width: 95%;
+  }
+
+  /*CAROUSEL*/
+  .carousel__button--prev{
+    left:80%;
+    font-size: 35px;
+  }
+  .carousel__button--next{
+    left:2%;
+    font-size: 35px;
+  }
+  .doto{
+    left:40%;
+    top:36%;
+  }
+  .slider{
+    height: 255px;
+  }
+  .sizeImgCarousel{
+    height: 255px;
+  }
+  .controls{
+    top: 22%;
+  }
+
+  /* ABOUT */
+  .tit{
+    font-size: 13px;
+  }
+  .accordion{
+    padding: 4px;
+  }
+  .blocAccordion{
+    min-height: 450px;
+    justify-content: flex-start;
+  }
 }
